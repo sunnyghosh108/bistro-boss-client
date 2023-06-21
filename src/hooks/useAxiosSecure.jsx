@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import useAuth from './UseAuth';
-//import useAuth from './useAuth';
+
 
 
 const useAxiosSecure = () => {
@@ -10,7 +10,7 @@ const useAxiosSecure = () => {
   const navigate = useNavigate(); 
 
   const axiosSecure = axios.create({
-    baseURL: 'http://localhost:5000', 
+    baseURL: 'https://bistro-boss-server-pearl-rho.vercel.app', 
   });
 
   useEffect(() => {

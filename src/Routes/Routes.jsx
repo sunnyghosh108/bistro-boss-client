@@ -67,7 +67,7 @@ import AdminHome from "../Pages/DashBoard/AdminHome/AdminHome";
           path:'mycart',
           element:<MyCart></MyCart>
         },
-        //admin routes
+      //  admin routes
         {
          path:'adminhome',
          element:<AdminRoute><AdminHome></AdminHome></AdminRoute>
